@@ -1,0 +1,47 @@
+.header {
+  width: 100vw;
+  height: 109px;
+  padding: 10px 15px;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+
+  background-color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  color: greenyellow;
+}
+
+.header h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.header h1:hover {
+  text-shadow: 1px 1px 10px greenyellow;
+}
+
+@media (min-width: 600px) {
+  .header {
+    padding: 0 50px;
+    height: 70px;
+  }
+
+  .header h1 {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding: 0 100px;
+  }
+}

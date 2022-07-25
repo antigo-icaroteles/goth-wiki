@@ -1,0 +1,18 @@
+.notfound {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.notfound--description {
+  height: 100%;
+
+  border-left: 3px solid greenyellow;
+  padding-left: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
